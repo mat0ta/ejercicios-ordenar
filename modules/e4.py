@@ -25,5 +25,3 @@ def ordenar():
   if len(lista_ordenada) < len_lista:
     ordenar() 
     return
-
-ordenar()

@@ -30,6 +30,3 @@ def segmentar():
       lista_segmentada.append(lista[j_safe:h+1])
       guardado = False
   print(lista_segmentada)
-
-
-completarEspecificaciones()
