@@ -22,8 +22,9 @@ def segmentar():
       j_safe = j
       guardado = True
     if lista[j_safe] > lista[h]:
+      print('no añadido')
       h += 1
-      break
+      continue
     else:
       print('añadido')
       lista_segmentada.append(lista[j_safe:h+1])
