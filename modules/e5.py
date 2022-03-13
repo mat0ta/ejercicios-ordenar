@@ -1,6 +1,6 @@
 import numpy
 
-numeros = [[3,5], [7,10], [9,10], [1,6], [2, 4], [11, 8]]
+numeros = [[3,5], [7,20], [9,16], [1,6], [2, 4], [11, 8]]
 solo_numeros = numpy.concatenate(numeros)
 numeros_ordenados = []
 prioridades = []
